@@ -1,1 +1,29 @@
 // Mixins Here
+
+
+.flex-box  {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+.buttons (@bc, @c, @w, @radius, @p, @align, @font) {
+    background-color: @bc;
+    color: @c;
+    width: @w;
+    border-radius: @r;
+    padding: @p;
+    text-align: @align;
+    font-size: @font;
+}
+
+.anchor-style {
+    padding: 20px;
+    text-decoration: none;
+    color: #22283A;
+    font-size: 1.7rem;
+    font-family:  @river-bend;
+  }
